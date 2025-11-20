@@ -1,0 +1,35 @@
+---
+id: berlin-gtfs-source-aligned
+metadata:
+  name: Berlin GTFS (source-aligned)
+  owner: Open Data Product
+  description:
+  url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned
+  license: CC-BY 4.0
+  updated: 2025-11-20
+  schema:
+input_ports:
+transformation_steps:
+  - name: Data extractor
+    path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py
+    description: extracts data from inout ports
+  - name: Data copier
+    path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_copier.py
+    description: copies and renames extracted data
+  - name: Data CSV converter
+    path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_converter.py
+    description: converts Excel files to CSV format
+  - name: Data aggregator
+    path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_aggregator.py
+    description: aggregates data to be used as output ports
+output_ports: []
+observability:
+  quality:
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
+classification: source-aligned
+ubiquitous_language: []
+tags:

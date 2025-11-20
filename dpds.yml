@@ -1,0 +1,25 @@
+---
+dataProductDescriptor: data-product-descriptor
+info:
+  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:berlin-gtfs-source-aligned:1.0
+  name: Berlin GTFS (source-aligned)
+  version: '1.0'
+  domain: domain
+  owner:
+    id: Open Data Product
+    name: Open Data Product
+  id: berlin-gtfs-source-aligned
+  entityType:
+  displayName: Berlin GTFS (source-aligned)
+  description:
+  contactPoints:
+interfaceComponents:
+  outputPorts: []
+  inputPorts: []
+  discoveryPorts:
+  observabilityPorts:
+  controlPorts:
+internalComponents:
+components:
+tags:
+externalDocs:

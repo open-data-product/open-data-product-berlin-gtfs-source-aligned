@@ -1,0 +1,11 @@
+*.iml
+/.idea
+
+*.DS_Store
+
+.venv
+
+**/__pycache__/
+**/*.zip
+
+/data/01-bronze
