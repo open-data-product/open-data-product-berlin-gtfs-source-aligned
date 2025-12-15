@@ -9,3 +9,4 @@
 **/*.zip
 
 /data/01-bronze
+!/data/02-silver/**/*.zip
