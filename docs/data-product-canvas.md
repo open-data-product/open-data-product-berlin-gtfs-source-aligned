@@ -179,8 +179,188 @@ name: VBB GTFS-Daten
 
 * [Data extractor](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py) extracts data from inout ports
 * [Data copier](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_copier.py) copies and renames extracted data
-* [Data CSV converter](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_converter.py) converts Excel files to CSV format
-* [Data aggregator](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_aggregator.py) aggregates data to be used as output ports
+
+## Output Ports
+
+### berlin-public-transport-gtfs-2010-00
+name: Berlin Public Transport Gtfs 2010 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2010-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2010-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2010-00/berlin-public-transport-gtfs-2010-00.zip)
+
+
+### berlin-public-transport-gtfs-2011-00
+name: Berlin Public Transport Gtfs 2011 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2011-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2011-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2011-00/berlin-public-transport-gtfs-2011-00.zip)
+
+
+### berlin-public-transport-gtfs-2012-00
+name: Berlin Public Transport Gtfs 2012 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2012-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2012-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2012-00/berlin-public-transport-gtfs-2012-00.zip)
+
+
+### berlin-public-transport-gtfs-2013-00
+name: Berlin Public Transport Gtfs 2013 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2013-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2013-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2013-00/berlin-public-transport-gtfs-2013-00.zip)
+
+
+### berlin-public-transport-gtfs-2014-00
+name: Berlin Public Transport Gtfs 2014 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2014-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2014-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2014-00/berlin-public-transport-gtfs-2014-00.zip)
+
+
+### berlin-public-transport-gtfs-2015-00
+name: Berlin Public Transport Gtfs 2015 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2015-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2015-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2015-00/berlin-public-transport-gtfs-2015-00.zip)
+
+
+### berlin-public-transport-gtfs-2016-00
+name: Berlin Public Transport Gtfs 2016 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2016-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2016-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2016-00/berlin-public-transport-gtfs-2016-00.zip)
+
+
+### berlin-public-transport-gtfs-2017-00
+name: Berlin Public Transport Gtfs 2017 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2017-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2017-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2017-00/berlin-public-transport-gtfs-2017-00.zip)
+
+
+### berlin-public-transport-gtfs-2018-00
+name: Berlin Public Transport Gtfs 2018 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2018-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2018-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2018-00/berlin-public-transport-gtfs-2018-00.zip)
+
+
+### berlin-public-transport-gtfs-2019-00
+name: Berlin Public Transport Gtfs 2019 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2019-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2019-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2019-00/berlin-public-transport-gtfs-2019-00.zip)
+
+
+### berlin-public-transport-gtfs-2020-00
+name: Berlin Public Transport Gtfs 2020 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2020-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2020-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2020-00/berlin-public-transport-gtfs-2020-00.zip)
+
+
+### berlin-public-transport-gtfs-2021-00
+name: Berlin Public Transport Gtfs 2021 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2021-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2021-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2021-00/berlin-public-transport-gtfs-2021-00.zip)
+
+
+### berlin-public-transport-gtfs-2022-00
+name: Berlin Public Transport Gtfs 2022 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2022-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2022-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2022-00/berlin-public-transport-gtfs-2022-00.zip)
+
+
+### berlin-public-transport-gtfs-2023-00
+name: Berlin Public Transport Gtfs 2023 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2023-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2023-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2023-00/berlin-public-transport-gtfs-2023-00.zip)
+
+
+### berlin-public-transport-gtfs-2024-00
+name: Berlin Public Transport Gtfs 2024 00
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2024-00
+* license: CC-BY 4.0
+* updated: 2025-11-20
+
+**Files**
+
+* [berlin-public-transport-gtfs-2024-00.zip](https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00.zip)
+
 
 ## Classification
 

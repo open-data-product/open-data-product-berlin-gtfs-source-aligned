@@ -14,7 +14,202 @@ info:
   description:
   contactPoints:
 interfaceComponents:
-  outputPorts: []
+  outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2010-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2010-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2011-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2011-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2012-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2012-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2013-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2013-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2014-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2014-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2015-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2015-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2016-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2016-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2017-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2017-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2018-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2018-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2019-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2019-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2020-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2020-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2021-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2021-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2022-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2022-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2023-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2023-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2024-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2024-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
   inputPorts:
     - promises:
       expectations:

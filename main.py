@@ -76,7 +76,7 @@ def main(clean, quiet):
     )
 
     #
-    # Silver: Transform
+    # Gold
     #
 
     copy_data(
@@ -87,43 +87,16 @@ def main(clean, quiet):
         quiet=quiet,
     )
 
-    convert_data_to_csv(
-        data_transformation=data_transformation_silver,
-        source_path=silver_path,
-        results_path=silver_path,
-        clean=clean,
-        quiet=quiet,
-    )
-
-    #
-    # Gold: Aggregate
-    #
-
-    aggregate_data(
-        data_transformation=data_transformation_gold,
-        source_path=silver_path,
-        results_path=gold_path,
-        clean=clean,
-        quiet=quiet,
-    )
-
     #
     # Documentation
     #
 
-    create_jupyter_notebook_for_csv(
-        data_product_manifest=data_product_manifest,
-        results_path=script_path,
-        data_path=gold_path,
-        clean=True,
-        quiet=quiet,
-    )
-
     update_data_product_manifest(
         data_product_manifest=data_product_manifest,
         config_path=script_path,
-        data_paths=[gold_path],
-        file_endings=(".csv", ".parquet"),
+        data_paths=[silver_path],
+        file_endings=(".zip"),
+        git_lfs=True
     )
 
     update_odps(

@@ -9,7 +9,7 @@
   <h1 align="center">Berlin GTFS (source-aligned)</h1>
 
   <p align="center">
-    Data product providing TODO
+    Data product providing Berlin GTFS data
   </p>
 </p>
 
@@ -20,8 +20,6 @@ See
 * [Data Product Canvas](docs/data-product-canvas.md)
 * [Open Data Product Specification canvas](./docs/odps-canvas.md) and
 * [Data Product Descriptor Specification canvas](./docs/dpds-canvas.md)
-
-See also [main.ipynb](./main.ipynb) for a sample notebook.
 
 ### Built With
 
@@ -74,7 +72,7 @@ known issues).
 
 ## License
 
-Source data distributed under TODO by TODO.
+Source data distributed under [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) by [Verkehrsverbund Berlin-Brandenburg (VBB)](https://unternehmen.vbb.de/).
 
 Data product distributed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 See [LICENSE.md](./LICENSE.md) for more information.
