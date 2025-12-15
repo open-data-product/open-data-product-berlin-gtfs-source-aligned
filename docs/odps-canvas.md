@@ -9,6 +9,7 @@
 * logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/logo-with-text.png
 * product ID: berlin-gtfs-source-aligned
 * status: active
+* tags: berlin, gtfs, transport
 * type: source-aligned
 * version: 1.0
 * visibility: public

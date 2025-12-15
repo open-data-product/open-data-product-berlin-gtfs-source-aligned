@@ -9,6 +9,171 @@ metadata:
   updated: 2025-11-20
   schema:
 input_ports:
+  - id: berlin-public-transport-gtfs-2010-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2010.zip
+  - id: berlin-public-transport-gtfs-2011-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2011.zip
+  - id: berlin-public-transport-gtfs-2012-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2012.zip
+  - id: berlin-public-transport-gtfs-2013-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2013.zip
+  - id: berlin-public-transport-gtfs-2014-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2014.zip
+  - id: berlin-public-transport-gtfs-2015-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2015.zip
+  - id: berlin-public-transport-gtfs-2016-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2016.zip
+  - id: berlin-public-transport-gtfs-2017-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2017.zip
+  - id: berlin-public-transport-gtfs-2018-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2018.zip
+  - id: berlin-public-transport-gtfs-2019-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2019.zip
+  - id: berlin-public-transport-gtfs-2020-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2020.zip
+  - id: berlin-public-transport-gtfs-2021-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2021.zip
+  - id: berlin-public-transport-gtfs-2022-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2022.zip
+  - id: berlin-public-transport-gtfs-2023-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2023.zip
+  - id: berlin-public-transport-gtfs-2024-00
+    metadata:
+      name: VBB GTFS-Daten
+      owner: Verkehrsverbund Berlin-Brandenburg
+      description: GTFS data for Berlin public transport
+      url: https://unternehmen.vbb.de/digitale-services/datensaetze/
+      license: CC-BY 4.0
+      updated:
+      schema: []
+    files:
+      - https://unternehmen.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-2024.zip
 transformation_steps:
   - name: Data extractor
     path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py
@@ -33,3 +198,6 @@ use_cases:
 classification: source-aligned
 ubiquitous_language: []
 tags:
+  - berlin
+  - gtfs
+  - transport

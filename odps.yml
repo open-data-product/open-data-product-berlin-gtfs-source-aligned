@@ -16,6 +16,9 @@ product:
     productSeries:
     standards: []
     tags:
+      - berlin
+      - gtfs
+      - transport
     useCases: []
     valueProposition:
     version: '1.0'
