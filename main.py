@@ -2,7 +2,10 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #     "click>=8.2.1",
+#     "networkx>=3.6.1",
 #     "open-data-product-python-lib",
+#     "osmnx>=2.0.7",
+#     "partridge>=1.1.2",
 # ]
 #
 # [tool.uv.sources]
@@ -32,15 +35,12 @@ from opendataproduct.document.data_product_manifest_updater import (
 )
 from opendataproduct.document.dpds_canvas_generator import generate_dpds_canvas
 from opendataproduct.document.dpds_updater import update_dpds
-from opendataproduct.document.jupyter_notebook_creator import (
-    create_jupyter_notebook_for_csv,
-)
 from opendataproduct.document.odps_canvas_generator import generate_odps_canvas
 from opendataproduct.document.odps_updater import update_odps
 from opendataproduct.extract.data_extractor import extract_data
-from opendataproduct.transform.data_aggregator import aggregate_data
 from opendataproduct.transform.data_copier import copy_data
-from opendataproduct.transform.data_csv_converter import convert_data_to_csv
+
+from lib.tranform.graph_geojson_converter import convert_transit_feed
 
 file_path = os.path.realpath(__file__)
 script_path = os.path.dirname(file_path)
@@ -76,7 +76,7 @@ def main(clean, quiet):
     )
 
     #
-    # Gold
+    # Silver
     #
 
     copy_data(
@@ -88,15 +88,27 @@ def main(clean, quiet):
     )
 
     #
+    # Gold
+    #
+
+    convert_transit_feed(
+        data_transformation=data_transformation_gold,
+        source_path=silver_path,
+        results_path=gold_path,
+        clean=clean,
+        quiet=quiet,
+    )
+
+    #
     # Documentation
     #
 
     update_data_product_manifest(
         data_product_manifest=data_product_manifest,
         config_path=script_path,
-        data_paths=[silver_path],
-        file_endings=(".zip"),
-        git_lfs=True
+        data_paths=[silver_path, gold_path],
+        file_endings=(".zip", ".geojson"),
+        git_lfs=True,
     )
 
     update_odps(
