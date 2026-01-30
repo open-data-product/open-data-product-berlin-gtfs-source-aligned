@@ -6,7 +6,7 @@ metadata:
   description:
   url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned
   license: CC-BY 4.0
-  updated: 2026-01-28
+  updated: 2026-01-30
   schema:
 input_ports:
   - id: berlin-public-transport-gtfs-2010-00
@@ -189,7 +189,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2010-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2010-00/berlin-public-transport-gtfs-2010-00.zip
@@ -200,7 +200,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2011-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2011-00/berlin-public-transport-gtfs-2011-00.zip
@@ -211,7 +211,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2012-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2012-00/berlin-public-transport-gtfs-2012-00.zip
@@ -222,7 +222,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2013-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2013-00/berlin-public-transport-gtfs-2013-00.zip
@@ -233,7 +233,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2014-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2014-00/berlin-public-transport-gtfs-2014-00.zip
@@ -244,7 +244,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2015-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2015-00/berlin-public-transport-gtfs-2015-00.zip
@@ -255,7 +255,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2016-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2016-00/berlin-public-transport-gtfs-2016-00.zip
@@ -266,7 +266,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2017-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2017-00/berlin-public-transport-gtfs-2017-00.zip
@@ -277,7 +277,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2018-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2018-00/berlin-public-transport-gtfs-2018-00.zip
@@ -288,7 +288,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2019-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2019-00/berlin-public-transport-gtfs-2019-00.zip
@@ -299,7 +299,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2020-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2020-00/berlin-public-transport-gtfs-2020-00.zip
@@ -310,7 +310,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2021-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2021-00/berlin-public-transport-gtfs-2021-00.zip
@@ -321,7 +321,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2022-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2022-00/berlin-public-transport-gtfs-2022-00.zip
@@ -332,7 +332,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2023-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2023-00/berlin-public-transport-gtfs-2023-00.zip
@@ -343,7 +343,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2024-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00.zip
@@ -354,7 +354,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2010-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2010-00/berlin-public-transport-gtfs-2010-00-other.geojson
@@ -365,7 +365,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2011-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2011-00/berlin-public-transport-gtfs-2011-00-other.geojson
@@ -376,7 +376,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2012-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2012-00/berlin-public-transport-gtfs-2012-00-bus.geojson
@@ -393,7 +393,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2013-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2013-00/berlin-public-transport-gtfs-2013-00-bus.geojson
@@ -410,7 +410,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2014-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2014-00/berlin-public-transport-gtfs-2014-00-bus.geojson
@@ -426,7 +426,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2015-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2015-00/berlin-public-transport-gtfs-2015-00-bus.geojson
@@ -442,7 +442,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2017-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2017-00/berlin-public-transport-gtfs-2017-00-bus.geojson
@@ -459,7 +459,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2018-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2018-00/berlin-public-transport-gtfs-2018-00-bus.geojson
@@ -476,7 +476,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2019-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2019-00/berlin-public-transport-gtfs-2019-00-bus.geojson
@@ -493,7 +493,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2020-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2020-00/berlin-public-transport-gtfs-2020-00-bus.geojson
@@ -510,7 +510,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2021-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2021-00/berlin-public-transport-gtfs-2021-00-bus.geojson
@@ -527,7 +527,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2022-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2022-00/berlin-public-transport-gtfs-2022-00-bus.geojson
@@ -544,7 +544,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2023-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2023-00/berlin-public-transport-gtfs-2023-00-bus.geojson
@@ -561,7 +561,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2024-00
       license: CC-BY 4.0
-      updated: 2026-01-28
+      updated: 2026-01-30
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-bus.geojson
