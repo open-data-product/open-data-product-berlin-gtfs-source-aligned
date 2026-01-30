@@ -161,25 +161,42 @@ def convert_transit_feed(
                         # Process stops
                         #
 
+                        # Remove unused stops
                         relevant_stop_times = stop_times[
                             stop_times["trip_id"].isin(mode_trip_ids)
                         ]
-                        relevant_stop_ids = relevant_stop_times["stop_id"].unique()
+                        active_stop_ids = relevant_stop_times["stop_id"].unique()
+                        active_stops = stops[
+                            stops["stop_id"].isin(active_stop_ids)
+                        ].copy()
 
-                        mode_stops = stops[stops["stop_id"].isin(relevant_stop_ids)]
+                        # Merge stops into stations
+                        unique_stations = (
+                            active_stops.groupby("stop_name")[["stop_lon", "stop_lat"]]
+                            .mean()
+                            .reset_index()
+                        )
 
+                        # Convert to geo data frame
                         mode_stops_gdf = gpd.GeoDataFrame(
-                            mode_stops,
+                            unique_stations,
                             geometry=gpd.points_from_xy(
-                                mode_stops.stop_lon, mode_stops.stop_lat
+                                unique_stations.stop_lon, unique_stations.stop_lat
                             ),
                             crs="EPSG:4326",
                         )
-                        mode_stops_gdf["feature_type"] = "stop"
 
                         # Cleanup columns
-                        keep_cols = ["stop_id", "stop_name", "feature_type", "geometry"]
-                        mode_stops_gdf = mode_stops_gdf[keep_cols]
+                        desired_cols = [
+                            "stop_id",
+                            "stop_name",
+                            "feature_type",
+                            "geometry",
+                        ]
+                        valid_cols = [
+                            c for c in desired_cols if c in mode_stops_gdf.columns
+                        ]
+                        mode_stops_gdf = mode_stops_gdf[valid_cols]
 
                         unified_gdf = pd.concat(
                             [mode_stops_gdf, mode_shapes_gdf], ignore_index=True
