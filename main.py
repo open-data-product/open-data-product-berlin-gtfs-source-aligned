@@ -2,6 +2,7 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #     "click>=8.2.1",
+#     "dotenv>=0.9.9",
 #     "networkx>=3.6.1",
 #     "open-data-product-python-lib",
 #     "osmnx>=2.0.7",
@@ -16,6 +17,7 @@ import os
 import sys
 
 import click
+from dotenv import load_dotenv
 from opendataproduct.config.data_product_manifest_loader import (
     load_data_product_manifest,
 )
@@ -39,17 +41,21 @@ from opendataproduct.document.odps_canvas_generator import generate_odps_canvas
 from opendataproduct.document.odps_updater import update_odps
 from opendataproduct.extract.data_extractor import extract_data
 from opendataproduct.transform.data_copier import copy_data
+from opendataproduct.load.firebase_bucket_uploader import upload_to_firebase_bucket
 
 from lib.tranform.graph_geojson_converter import convert_transit_feed
 
 file_path = os.path.realpath(__file__)
 script_path = os.path.dirname(file_path)
 
+load_dotenv()
+
 
 @click.command()
 @click.option("--clean", "-c", default=False, is_flag=True, help="Regenerate results.")
 @click.option("--quiet", "-q", default=False, is_flag=True, help="Do not log outputs.")
-def main(clean, quiet):
+@click.option("--upload", "-u", default=False, is_flag=True, help="Upload results.")
+def main(clean, quiet, upload):
     data_path = os.path.join(script_path, "data")
     bronze_path = os.path.join(data_path, "01-bronze")
     silver_path = os.path.join(data_path, "02-silver")
@@ -65,7 +71,7 @@ def main(clean, quiet):
     dpds = load_dpds(config_path=script_path)
 
     #
-    # Bronze: Integrate
+    # Extract
     #
 
     extract_data(
@@ -76,7 +82,7 @@ def main(clean, quiet):
     )
 
     #
-    # Silver
+    # Transform
     #
 
     copy_data(
@@ -87,10 +93,6 @@ def main(clean, quiet):
         quiet=quiet,
     )
 
-    #
-    # Gold
-    #
-
     convert_transit_feed(
         data_transformation=data_transformation_gold,
         source_path=silver_path,
@@ -98,6 +100,25 @@ def main(clean, quiet):
         clean=clean,
         quiet=quiet,
     )
+
+    #
+    # Load
+    #
+
+    if upload:
+        if not os.getenv("FIREBASE_CREDENTIALS_FILE_NAME"):
+            raise ValueError("Specify FIREBASE_CREDENTIALS_FILE_NAME in .env file")
+
+        firebase_credentials_file = os.path.join(
+            script_path, os.getenv("FIREBASE_CREDENTIALS_FILE_NAME")
+        )
+        upload_to_firebase_bucket(
+            data_path=gold_path,
+            firebase_credentials_file=firebase_credentials_file,
+            endings=(".geojson"),
+            clean=clean,
+            quiet=quiet,
+        )
 
     #
     # Documentation

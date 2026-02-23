@@ -3,10 +3,15 @@
 
 *.DS_Store
 
-.venv
+/.venv
+.env
 
 **/__pycache__/
 **/*.zip
 
 /data/01-bronze
 !/data/02-silver/**/*.zip
+
+*-firebase-adminsdk-*.json
+ui-debug.log
+/firebase-debug.log
