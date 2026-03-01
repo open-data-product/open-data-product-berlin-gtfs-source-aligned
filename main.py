@@ -3,10 +3,7 @@
 # dependencies = [
 #     "click>=8.2.1",
 #     "dotenv>=0.9.9",
-#     "networkx>=3.6.1",
 #     "open-data-product-python-lib",
-#     "osmnx>=2.0.7",
-#     "partridge>=1.1.2",
 # ]
 #
 # [tool.uv.sources]
@@ -42,8 +39,8 @@ from opendataproduct.document.odps_updater import update_odps
 from opendataproduct.extract.data_extractor import extract_data
 from opendataproduct.transform.data_copier import copy_data
 from opendataproduct.load.firebase_bucket_uploader import upload_to_firebase_bucket
+from opendataproduct.transform.gtfs_geojson_converter import convert_gtfs_to_geojson
 
-from lib.tranform.graph_geojson_converter import convert_transit_feed
 
 file_path = os.path.realpath(__file__)
 script_path = os.path.dirname(file_path)
@@ -93,7 +90,7 @@ def main(clean, quiet, upload):
         quiet=quiet,
     )
 
-    convert_transit_feed(
+    convert_gtfs_to_geojson(
         data_transformation=data_transformation_gold,
         source_path=silver_path,
         results_path=gold_path,
